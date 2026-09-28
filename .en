@@ -1,0 +1,62 @@
+# ============================================
+# DATABASE
+# ============================================
+MONGODB_URI=mongodb+srv://user:password@cluster.mongodb.net/marketing-panel
+
+# ============================================
+# AUTH (NextAuth / Auth.js)
+# ============================================
+# Generate with: openssl rand -base64 32
+AUTH_SECRET=
+NEXTAUTH_URL=http://localhost:3000
+
+# The ONLY Google account allowed to log in.
+AUTHORIZED_EMAIL=admin@example.com
+
+GOOGLE_CLIENT_ID=
+GOOGLE_CLIENT_SECRET=
+
+# ============================================
+# TOKEN ENCRYPTION
+# Used to encrypt SocialAccount tokens + SMTP password at rest.
+# Generate with: openssl rand -hex 32   (must be 32 bytes / 64 hex chars)
+# ============================================
+ENCRYPTION_KEY=
+
+# ============================================
+# CLOUDINARY
+# ============================================
+CLOUDINARY_CLOUD_NAME=
+CLOUDINARY_API_KEY=
+CLOUDINARY_API_SECRET=
+
+# ============================================
+# SMTP (fallback/default — can also be configured from Settings UI)
+# ============================================
+SMTP_HOST=
+SMTP_PORT=587
+SMTP_USER=
+SMTP_PASSWORD=
+SMTP_FROM_EMAIL=
+SMTP_FROM_NAME=
+SMTP_SECURE=false
+
+# ============================================
+# META (Facebook + Instagram Graph API)
+# ============================================
+META_APP_ID=
+META_APP_SECRET=
+META_REDIRECT_URI=http://localhost:3000/api/social/callback/meta
+META_GRAPH_API_VERSION=v20.0
+
+# ============================================
+# LINKEDIN
+# ============================================
+LINKEDIN_CLIENT_ID=
+LINKEDIN_CLIENT_SECRET=
+LINKEDIN_REDIRECT_URI=http://localhost:3000/api/social/callback/linkedin
+
+# ============================================
+# APP
+# ============================================
+NEXT_PUBLIC_APP_URL=http://localhost:3000

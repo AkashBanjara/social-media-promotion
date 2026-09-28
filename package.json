@@ -1,0 +1,54 @@
+{
+  "name": "marketing-automation-panel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Single-user marketing automation & social media publishing panel",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "next": "14.2.35",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "next-auth": "^4.24.8",
+    "mongoose": "^8.6.3",
+    "cloudinary": "^2.5.0",
+    "nodemailer": "^7.0.7",
+    "zod": "^3.23.8",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.2",
+    "class-variance-authority": "^0.7.0",
+    "lucide-react": "^0.446.0",
+    "@radix-ui/react-dialog": "^1.1.1",
+    "@radix-ui/react-dropdown-menu": "^2.1.1",
+    "@radix-ui/react-select": "^2.1.1",
+    "@radix-ui/react-tabs": "^1.1.0",
+    "@radix-ui/react-checkbox": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.0",
+    "@radix-ui/react-separator": "^1.1.0",
+    "@radix-ui/react-toast": "^1.2.1",
+    "@radix-ui/react-slot": "^1.1.0",
+    "papaparse": "^5.4.1"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.2",
+    "@types/node": "^22.5.5",
+    "@types/react": "^18.3.8",
+    "@types/react-dom": "^18.3.0",
+    "@types/nodemailer": "^6.4.16",
+    "@types/papaparse": "^5.3.14",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.12",
+    "tailwindcss-animate": "^1.0.7",
+    "eslint": "^8.57.1",
+    "eslint-config-next": "14.2.15"
+  },
+  "engines": {
+    "node": ">=18.18.0"
+  }
+}
